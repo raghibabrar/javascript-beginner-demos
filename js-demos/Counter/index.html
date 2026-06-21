@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Counter</title>
+    <style>
+        body { font-family: Arial, sans-serif; display: flex; justify-content: center; align-items: center; height: 100vh; background-color: #f4f4f9; margin: 0; }
+        .counter-container { text-align: center; background: white; padding: 30px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        h1 { font-size: 3rem; margin: 10px 0; color: #333; }
+        button { padding: 10px 20px; font-size: 1rem; margin: 5px; cursor: pointer; border: none; border-radius: 5px; background-color: #007bff; color: white; }
+        button:hover { background-color: #0056b3; }
+    </style>
+</head>
+<body>
+
+    <div class="counter-container">
+        <h2>Counter</h2>
+        <h1 id="count-display">0</h1>
+        <button id="btn-decrement">Decrease</button>
+        <button id="btn-increment">Increase</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
